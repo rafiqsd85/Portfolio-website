@@ -456,7 +456,7 @@ app.innerHTML = `
 
             <div class="h-52 overflow-hidden border-b border-white/10 bg-[#090b17]">
               <img
-                src="/src/projects/devstack.png"
+                src="/devstack.png"
                 alt="DevStack project preview"
                 class="h-full w-full object-cover object-top transition duration-500 group-hover:scale-105"
                 loading="lazy"
@@ -514,7 +514,7 @@ app.innerHTML = `
 
             <div class="h-52 overflow-hidden border-b border-white/10 bg-[#090b17]">
               <img
-                src="/src/projects/vote-for-ayas.png"
+                src="/vote-for-ayas.png"
                 alt="Vote for Ayas campaign website preview"
                 class="h-full w-full object-cover object-top transition duration-500 group-hover:scale-105"
                 loading="lazy"
@@ -573,7 +573,7 @@ app.innerHTML = `
 
             <div class="h-52 overflow-hidden border-b border-white/10 bg-[#090b17]">
               <img
-                src="/src/projects/devconf.png"
+                src="/devconf.png"
                 alt="DevConf 2026 website preview"
                 class="h-full w-full object-cover object-top transition duration-500 group-hover:scale-105"
                 loading="lazy"
@@ -740,8 +740,7 @@ app.innerHTML = `
                 <rect x="3" y="5" width="18" height="14" rx="2"/>
                 <path d="m3 7 9 6 9-6"/>
               </svg>
-              Email Me
-            </button>
+              Email Me</button>
 
             <p class="mt-3 text-center text-xs text-gray-500">
               Click to open the contact form.
