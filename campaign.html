@@ -1,0 +1,617 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Explore the PCC Computer Club Election 2026–27 campaign of Md. Rafiqul Islam."
+    />
+
+    <meta name="theme-color" content="#0b0618" />
+
+    <title>Vote-For-Rafiq</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/campaign.css" />
+
+    <script type="module" src="/src/campaign.js"></script>
+  </head>
+
+  <body class="campaign-page">
+    <!-- Navbar -->
+    <header
+      class="sticky top-0 z-50 border-b border-white/10 bg-[#0b0618]/90 backdrop-blur-xl"
+    >
+      <nav
+        class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8"
+        aria-label="Main navigation"
+      >
+        <a
+          href="/campaign.html"
+          class="logo shrink-0 text-xl font-bold tracking-tight"
+        >
+          Ra<span class="text-cyan-300">Fi</span>Q
+        </a>
+
+        <div class="hidden items-center gap-7 md:flex">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#manifesto" class="nav-link">Manifesto</a>
+          <a href="#promise" class="nav-link">Promise</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <div class="hidden items-center gap-3 sm:flex">
+          <a
+            href="/#home"
+            class="inline-flex rounded-xl border border-white/15 px-4 py-2 text-sm font-semibold text-white transition hover:border-purple-400 hover:bg-purple-500/10"
+          >
+            Portfolio
+          </a>
+
+          <a
+            href="/poster.html"
+            class="inline-flex rounded-xl border border-white/15 px-4 py-2 text-sm font-semibold text-white transition hover:border-purple-400 hover:bg-purple-500/10"
+          >
+            Poster
+          </a>
+        </div>
+
+        <button
+          id="menu-toggle"
+          type="button"
+          class="rounded-lg border border-white/15 px-3 py-2 text-white md:hidden"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          ☰
+        </button>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden border-t border-white/10 px-5 py-4 md:hidden"
+      >
+        <div class="flex flex-col gap-4">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#manifesto" class="nav-link">Manifesto</a>
+          <a href="#promise" class="nav-link">Promise</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="/poster.html" class="nav-link">Poster</a>
+          <a href="/#current-work" class="text-purple-300">
+            Back to Portfolio
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Campaign Hero Banner -->
+      <section
+        class="relative flex min-h-[500px] items-center justify-center overflow-hidden bg-[#0b0618] bg-top bg-no-repeat px-5 py-20 sm:min-h-[600px] lg:min-h-[700px]"
+        style="background-image: url('/campaign/cbanner.jpg'); background-size: 100% auto; background-position: top center;"
+      >
+        <!-- Purple Glow -->
+        <div
+          class="pointer-events-none absolute left-1/2 top-1/2 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-purple-600/20 blur-[100px] sm:h-96 sm:w-96"
+        ></div>
+
+        <!-- Center Content -->
+        <div
+          class="relative z-10 mx-auto mt-40 w-full max-w-4xl translate-x-2 text-center sm:mt-0 sm:translate-x-8"
+        >
+          <span
+            class="inline-block rounded-full border border-purple-300/40 bg-purple-950/50 px-3 py-1.5 text-[9px] font-bold uppercase tracking-[0.15em] text-purple-200 backdrop-blur-md sm:text-xs"
+          >
+            PCC Computer Club · Election 2026–27
+          </span>
+
+          <h1
+            class="mt-4 text-2xl font-extrabold leading-tight tracking-tight text-white drop-shadow-2xl sm:text-4xl lg:text-5xl"
+          >
+            Md. Rafiqul Islam
+          </h1>
+
+          <div
+            class="mx-auto mt-3 h-0.5 w-14 rounded-full bg-gradient-to-r from-red-500 via-purple-400 to-red-500"
+          ></div>
+
+          <p
+            class="mt-3 text-xs font-bold uppercase tracking-[0.12em] text-purple-200 drop-shadow-lg sm:text-base"
+          >
+            Executive Member Candidate
+          </p>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section
+        id="about"
+        class="relative scroll-mt-24 overflow-hidden bg-[#0b0618] px-5 py-20 sm:py-24"
+      >
+        <div
+          class="pointer-events-none absolute right-0 top-20 h-72 w-72 rounded-full bg-purple-600/10 blur-[110px]"
+        ></div>
+
+        <div class="relative z-10 mx-auto max-w-6xl">
+          <!-- Heading -->
+          <div class="mx-auto mb-12 max-w-3xl text-center">
+            <span
+              class="inline-block text-[10px] font-bold uppercase tracking-[0.25em] text-purple-400 sm:text-xs"
+            >
+              Beyond The Candidate
+            </span>
+
+            <p
+              class="mx-auto mt-4 max-w-xl text-sm leading-7 text-gray-400 sm:text-base"
+            >
+              A little about who I am, what I believe in, and why I want to
+              contribute to the PCC Computer Club.
+            </p>
+          </div>
+
+          <!-- Main Content -->
+          <div class="grid gap-8 lg:grid-cols-[1.15fr_1fr] lg:gap-12">
+            <!-- Introduction -->
+            <div
+              class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8"
+            >
+              <div
+                class="mb-6 flex h-14 w-14 items-center justify-center rounded-xl border border-purple-400/20 bg-purple-500/10 text-xl font-extrabold text-purple-300"
+              >
+                <span>👋</span>
+              </div>
+
+              <p class="text-sm font-semibold text-purple-300">
+                Hello, I'm Md. Rafiqul Islam
+              </p>
+
+              <p class="mt-5 text-sm leading-7 text-gray-300 sm:text-base">
+                I am a Computer Science and Engineering student at Port City
+                International University who believes that learning becomes
+                more meaningful when we share knowledge and support one another.
+              </p>
+
+              <p class="mt-4 text-sm leading-7 text-gray-400 sm:text-base">
+                My goal as an Executive Member candidate is to contribute to a
+                club environment where students feel encouraged to participate,
+                exchange ideas, explore technology, and grow together as a community.
+              </p>
+            </div>
+
+            <!-- Values -->
+            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+              <div
+                class="group rounded-2xl border border-purple-400/15 bg-gradient-to-br from-purple-500/10 to-transparent p-5 transition duration-300 hover:border-purple-400/40"
+              >
+                <div class="flex items-start gap-4">
+                  <div
+                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-purple-500/15 text-lg text-purple-300"
+                  >
+                    <span>01</span>
+                  </div>
+
+                  <div>
+                    <h4 class="font-bold text-white">A Learning Community</h4>
+                    <p class="mt-2 text-sm leading-6 text-gray-400">
+                      Encouraging knowledge sharing, technical discussions,
+                      and opportunities to learn from one another.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="group rounded-2xl border border-purple-400/15 bg-gradient-to-br from-purple-500/10 to-transparent p-5 transition duration-300 hover:border-purple-400/40"
+              >
+                <div class="flex items-start gap-4">
+                  <div
+                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-purple-500/15 text-lg text-purple-300"
+                  >
+                    <span>02</span>
+                  </div>
+
+                  <div>
+                    <h4 class="font-bold text-white">
+                      Teamwork & Collaboration
+                    </h4>
+                    <p class="mt-2 text-sm leading-6 text-gray-400">
+                      Building stronger connections through cooperation,
+                      shared responsibilities, and collective effort.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="group rounded-2xl border border-purple-400/15 bg-gradient-to-br from-purple-500/10 to-transparent p-5 transition duration-300 hover:border-purple-400/40 sm:col-span-2 lg:col-span-1"
+              >
+                <div class="flex items-start gap-4">
+                  <div
+                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-purple-500/15 text-lg text-purple-300"
+                  >
+                    <span>03</span>
+                  </div>
+
+                  <div>
+                    <h4 class="font-bold text-white">
+                      Meaningful Participation
+                    </h4>
+                    <p class="mt-2 text-sm leading-6 text-gray-400">
+                      Supporting an inclusive club culture where students
+                      can contribute, participate, and grow together.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Closing Statement -->
+          <div
+            class="mt-8 rounded-xl border-l-2 border-purple-400 bg-purple-500/[0.06] px-5 py-5 sm:px-7"
+          >
+            <p
+              class="text-sm font-medium leading-7 text-gray-200 sm:text-base"
+            >
+              “A stronger club starts with people who are willing to learn,
+              contribute, and work together.”
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Manifesto Section -->
+      <section
+        id="manifesto"
+        class="relative scroll-mt-24 overflow-hidden bg-[#0b0618] px-5 py-20 sm:py-24 lg:py-28"
+      >
+        <div
+          class="pointer-events-none absolute left-1/2 top-40 h-80 w-80 -translate-x-1/2 rounded-full bg-purple-700/10 blur-[120px]"
+        ></div>
+
+        <div class="relative z-10 mx-auto max-w-5xl">
+          <!-- Header -->
+          <div class="mb-16 text-center">
+            <span
+              class="text-xs font-bold uppercase tracking-[0.25em] text-purple-400"
+            >
+              My Plan of Action
+            </span>
+
+            <h2
+              class="mt-4 text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl"
+            >
+              Four Steps.
+              <span class="text-purple-400">One Vision.</span>
+            </h2>
+
+            <p
+              class="mx-auto mt-5 max-w-2xl text-sm leading-7 text-gray-400 sm:text-base"
+            >
+              My commitments toward a more active, collaborative, and engaging
+              PCIU Computer Club.
+            </p>
+          </div>
+
+          <!-- Vision Banner -->
+          <div
+            class="mb-16 rounded-2xl border border-purple-400/20 bg-gradient-to-r from-purple-950/70 via-[#160c2b] to-purple-950/30 p-6 text-center sm:p-9"
+          >
+            <p
+              class="text-xs font-bold uppercase tracking-[0.2em] text-purple-400"
+            >
+              My Vision
+            </p>
+
+            <h3
+              class="mt-3 text-2xl font-bold leading-snug text-white sm:text-3xl"
+            >
+              A club where everyone gets a chance to grow.
+            </h3>
+
+            <p
+              class="mx-auto mt-4 max-w-3xl text-sm leading-7 text-gray-300 sm:text-base"
+            >
+              I believe a successful computer club is built on teamwork,
+              creativity, active participation, and a shared passion for technology.
+              I aim to contribute to an inclusive environment where students can
+              learn, share ideas, and grow together.
+            </p>
+          </div>
+
+          <!-- Timeline -->
+          <div class="relative">
+            <!-- Vertical Line -->
+            <div
+              class="absolute bottom-10 left-[19px] top-8 w-px bg-gradient-to-b from-purple-400/70 via-purple-500/30 to-transparent sm:left-1/2 sm:-translate-x-1/2"
+            ></div>
+
+            <!-- Step 01 -->
+            <div
+              class="relative mb-12 grid grid-cols-[40px_1fr] gap-5 sm:grid-cols-2 sm:gap-12"
+            >
+              <div
+                class="relative z-10 flex h-10 w-10 items-center justify-center rounded-full border border-purple-400/50 bg-[#170d2b] text-xs font-extrabold text-purple-300 sm:col-start-1 sm:col-end-2 sm:justify-self-end"
+              >
+                01
+              </div>
+
+              <div
+                class="rounded-2xl border border-white/10 bg-white/[0.025] p-5 transition duration-300 hover:border-purple-400/30 sm:col-start-1 sm:row-start-1 sm:mr-6 sm:p-7"
+              >
+                <p
+                  class="text-xs font-semibold uppercase tracking-widest text-purple-400"
+                >
+                  Responsibility
+                </p>
+
+                <h3 class="mt-3 text-xl font-bold text-white">
+                  Active Participation
+                </h3>
+
+                <p class="mt-3 text-sm leading-7 text-gray-400">
+                  I will participate actively in club meetings, events, and
+                  activities while completing assigned tasks sincerely and
+                  respecting deadlines.
+                </p>
+              </div>
+
+              <div
+                class="hidden items-center sm:col-start-2 sm:row-start-1 sm:flex"
+              >
+                <span class="text-sm font-medium text-gray-500">
+                  Show up. Contribute. Take responsibility.
+                </span>
+              </div>
+            </div>
+
+            <!-- Step 02 -->
+            <div
+              class="relative mb-12 grid grid-cols-[40px_1fr] gap-5 sm:grid-cols-2 sm:gap-12"
+            >
+              <div
+                class="relative z-10 flex h-10 w-10 items-center justify-center rounded-full border border-purple-400/50 bg-[#170d2b] text-xs font-extrabold text-purple-300 sm:col-start-2 sm:row-start-1"
+              >
+                02
+              </div>
+
+              <div
+                class="rounded-2xl border border-white/10 bg-white/[0.025] p-5 transition duration-300 hover:border-purple-400/30 sm:col-start-2 sm:row-start-1 sm:ml-6 sm:p-7"
+              >
+                <p
+                  class="text-xs font-semibold uppercase tracking-widest text-purple-400"
+                >
+                  Growth & Innovation
+                </p>
+
+                <h3 class="mt-3 text-xl font-bold text-white">
+                  Technical Events
+                </h3>
+
+                <p class="mt-3 text-sm leading-7 text-gray-400">
+                  I will support coding workshops, programming contests, tech talks,
+                  quizzes, and project showcases that encourage technical learning
+                  and creative thinking.
+                </p>
+              </div>
+
+              <div
+                class="hidden items-center justify-end sm:col-start-1 sm:row-start-1 sm:flex"
+              >
+                <span class="text-right text-sm font-medium text-gray-500">
+                  Learn new skills. Explore new ideas.
+                </span>
+              </div>
+            </div>
+
+            <!-- Step 03 -->
+            <div
+              class="relative mb-12 grid grid-cols-[40px_1fr] gap-5 sm:grid-cols-2 sm:gap-12"
+            >
+              <div
+                class="relative z-10 flex h-10 w-10 items-center justify-center rounded-full border border-purple-400/50 bg-[#170d2b] text-xs font-extrabold text-purple-300 sm:col-start-1 sm:justify-self-end"
+              >
+                03
+              </div>
+
+              <div
+                class="rounded-2xl border border-white/10 bg-white/[0.025] p-5 transition duration-300 hover:border-purple-400/30 sm:col-start-1 sm:row-start-1 sm:mr-6 sm:p-7"
+              >
+                <p
+                  class="text-xs font-semibold uppercase tracking-widest text-purple-400"
+                >
+                  Collaboration
+                </p>
+
+                <h3 class="mt-3 text-xl font-bold text-white">
+                  Teamwork & Engagement
+                </h3>
+
+                <p class="mt-3 text-sm leading-7 text-gray-400">
+                  I will work collaboratively with the executive committee and
+                  encourage students of every experience level to share ideas,
+                  join activities, and contribute to the club.
+                </p>
+              </div>
+
+              <div
+                class="hidden items-center sm:col-start-2 sm:row-start-1 sm:flex"
+              >
+                <span class="text-sm font-medium text-gray-500">
+                  Every member matters.
+                </span>
+              </div>
+            </div>
+
+            <!-- Step 04 -->
+            <div
+              class="relative grid grid-cols-[40px_1fr] gap-5 sm:grid-cols-2 sm:gap-12"
+            >
+              <div
+                class="relative z-10 flex h-10 w-10 items-center justify-center rounded-full border border-purple-400/50 bg-[#170d2b] text-xs font-extrabold text-purple-300 sm:col-start-2 sm:row-start-1"
+              >
+                04
+              </div>
+
+              <div
+                class="rounded-2xl border border-white/10 bg-white/[0.025] p-5 transition duration-300 hover:border-purple-400/30 sm:col-start-2 sm:row-start-1 sm:ml-6 sm:p-7"
+              >
+                <p
+                  class="text-xs font-semibold uppercase tracking-widest text-purple-400"
+                >
+                  Community
+                </p>
+
+                <h3 class="mt-3 text-xl font-bold text-white">
+                  E-Sports & Recreation
+                </h3>
+
+                <p class="mt-3 text-sm leading-7 text-gray-400">
+                  I will support e-sports tournaments and recreational activities
+                  that strengthen friendships, teamwork, and a sense of community
+                  among club members.
+                </p>
+              </div>
+
+              <div
+                class="hidden items-center justify-end sm:col-start-1 sm:row-start-1 sm:flex"
+              >
+                <span class="text-right text-sm font-medium text-gray-500">
+                  Connect. Compete. Grow together.
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Promise -->
+          <div id="promise" class="mt-20 scroll-mt-24 text-center">
+            <div
+              class="mx-auto mb-5 h-px w-20 bg-gradient-to-r from-transparent via-purple-400 to-transparent"
+            ></div>
+
+            <span
+              class="text-xs font-bold uppercase tracking-[0.25em] text-purple-400"
+            >
+              My Promise
+            </span>
+
+            <h3 class="mt-4 text-2xl font-extrabold text-white sm:text-3xl">
+              Words backed by responsibility.
+            </h3>
+
+            <p
+              class="mx-auto mt-5 max-w-3xl text-sm leading-7 text-gray-400 sm:text-base sm:leading-8"
+            >
+              I promise to serve with honesty, dedication, discipline, and teamwork.
+              I will respect every member's opinion, fulfill my responsibilities
+              sincerely, and contribute to building a stronger and more vibrant
+              PCIU Computer Club.
+            </p>
+
+            <div class="mt-8">
+              <p class="text-base font-bold text-white">
+                Md. Rafiqul Islam
+              </p>
+
+              <p class="mt-2 text-xs text-gray-500">
+                Candidate for Executive Member · PCIU Computer Club
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section-container scroll-mt-24">
+        <div class="contact-panel">
+          <span class="section-badge">LET'S CONNECT</span>
+
+          <h2 class="mt-5 text-3xl font-extrabold text-white sm:text-5xl">
+            Your Voice,
+            <span class="gradient-text">Our Community</span>
+          </h2>
+
+          <p
+            class="mx-auto mt-5 max-w-2xl leading-7 text-gray-300"
+          >
+            Have a suggestion, idea, or question about the campaign?
+            Let's connect and discuss how we can support a better learning community.
+          </p>
+
+          <!-- Contact Buttons -->
+          <div class="mt-8 flex flex-wrap justify-center gap-4">
+            <a
+              href="https://www.linkedin.com/in/mdrafiqulislam2085"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="primary-button"
+            >
+              LinkedIn 
+            </a>
+
+            <a
+              href="https://github.com/rafiqsd85"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="secondary-button"
+            >
+              GitHub 
+            </a>
+
+            <button
+              id="share-campaign"
+              type="button"
+              class="secondary-button"
+            >
+              Share Campaign 
+            </button>
+          </div>
+
+          <!-- Share Status -->
+          <p
+            id="share-status"
+            class="mt-4 text-sm text-purple-200"
+            aria-live="polite"
+          ></p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="flex flex-col items-center justify-center border-t border-white/10 bg-[#0b0618] px-5 py-8 text-center"
+    >
+      <p class="text-sm text-gray-400">
+        © <span id="current-year"></span> Md. Rafiqul Islam
+        <span class="mx-1 text-purple-500">·</span>
+        PCC Computer Club Campaign
+      </p>
+
+      <p class="mt-2 text-xs text-gray-500">
+        Executive Member Candidate · Election 2026–27
+      </p>
+
+      <a
+        href="/index.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mt-4 inline-flex items-center gap-2 text-sm font-medium text-purple-300 transition-colors duration-300 hover:text-white"
+      >
+        <span aria-hidden="true">←</span>
+        Back to My Portfolio
+      </a>
+    </footer>
+  </body>
+</html>
