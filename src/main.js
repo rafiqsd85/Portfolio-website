@@ -116,190 +116,6 @@ app.innerHTML = `
       </a>
     </section>
     
-
-<!-- PCC Campaign Banner with Glowing Border & Countdown -->
-<section class="px-5 pt-8">
-  <div class="mx-auto max-w-7xl">
-
-    <a
-      href="/campaign.html"
-      class="campaign-glow campaign-notice group relative block overflow-hidden rounded-2xl border border-red-400/50 bg-red-500/[0.04] p-5 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 sm:p-6"
-    >
-      <!-- Decorative Glow -->
-      <span
-        class="pointer-events-none absolute -left-16 -top-20 h-48 w-48 rounded-full bg-red-500/10 blur-3xl transition duration-500 group-hover:bg-red-500/20"
-      ></span>
-
-      <span
-        class="pointer-events-none absolute -right-10 -bottom-20 h-40 w-40 rounded-full bg-purple-500/10 blur-3xl"
-      ></span>
-
-      <!-- Campaign Header Content -->
-      <div class="relative flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
-
-        <!-- Left Content -->
-        <div class="flex min-w-0 items-start gap-4">
-
-          <!-- Campaign Icon -->
-          <div
-            class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-red-400/25 bg-red-500/10 text-2xl text-red-400 transition duration-500 group-hover:rotate-[-6deg] group-hover:scale-110"
-          >
-            📣
-          </div>
-
-          <div class="min-w-0">
-
-            <!-- Campaign Label -->
-            <div class="mb-2 flex flex-wrap items-center gap-2">
-              <span
-                class="inline-flex items-center gap-2 rounded-full border border-red-400/25 bg-red-500/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-red-400"
-              >
-                <span class="relative flex h-2 w-2">
-                  <span
-                    class="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75"
-                  ></span>
-                  <span
-                    class="relative inline-flex h-2 w-2 rounded-full bg-red-400"
-                  ></span>
-                </span>
-                Campaign 2026–27
-              </span>
-
-              <span class="text-xs text-gray-500">
-                • PCC Computer Club
-              </span>
-            </div>
-
-            <!-- Heading -->
-            <h3
-              class="text-lg font-extrabold tracking-tight text-white transition-colors duration-300 group-hover:text-red-300 sm:text-xl"
-            >
-              A New Chapter of Leadership
-              <span class="text-red-400">.</span>
-            </h3>
-
-            <p class="mt-2 max-w-2xl text-sm leading-6 text-gray-400">
-              Discover my campaign, vision, commitments and plans for the
-              PCIU Computer Club.
-            </p>
-          </div>
-        </div>
-
-        <!-- Right Action -->
-        <div
-          class="flex shrink-0 items-center justify-between gap-4 border-t border-red-400/10 pt-4 sm:justify-end sm:border-0 sm:pt-0"
-        >
-          <span class="text-xs font-medium text-gray-500">
-            Executive Member Candidate
-          </span>
-
-          
-          <span
-            class="relative inline-flex shrink-0 items-center gap-2 overflow-hidden rounded-xl
-                  border border-red-400/60
-                  bg-gradient-to-r from-red-600 via-rose-500 to-purple-600
-                  px-5 py-3 text-sm font-extrabold tracking-wide text-white
-                  shadow-[0_0_15px_rgba(239,68,68,0.35)]
-                  transition-all duration-300
-                  group-hover:scale-105
-                  group-hover:shadow-[0_0_25px_rgba(239,68,68,0.65)]
-                  group-hover:from-red-500 group-hover:via-rose-500 group-hover:to-purple-500"
-          >
-            <span>Explore Campaign</span>
-          </span>
-
-        </div>
-      </div>
-
-      <!-- Election Countdown Inside the Same Banner -->
-      <div class="relative mt-6 border-t border-red-400/15 pt-5 sm:mt-6">
-
-        <!-- Election Date -->
-        <p
-          class="mb-5 text-center text-xs font-bold tracking-widest text-cyan-200 sm:text-sm"
-        >
-          ELECTION DAY
-          <span class="mx-1 text-red-400">•</span>
-          29 OCTOBER 2026
-          <span class="mx-1 text-red-400">•</span>
-          11:00 AM
-        </p>
-
-        <!-- Countdown Cards -->
-        <div
-          id="countdown"
-          class="mx-auto grid w-full max-w-[620px] grid-cols-4 gap-2 sm:gap-3"
-        >
-
-          <!-- Days -->
-          <div
-            class="flex flex-col items-center justify-center rounded-xl border border-cyan-400/40 bg-blue-950/50 px-1 py-3 shadow-[0_0_12px_rgba(34,211,238,0.12)] backdrop-blur-md transition duration-300 hover:border-cyan-300 hover:shadow-[0_0_20px_rgba(34,211,238,0.2)] sm:py-4"
-          >
-            <span
-              id="days"
-              class="text-2xl font-extrabold leading-none text-cyan-300 sm:text-4xl"
-            >00</span>
-
-            <span class="mt-2 text-[9px] font-medium text-white sm:text-xs">
-              DAYS
-            </span>
-          </div>
-
-          <!-- Hours -->
-          <div
-            class="flex flex-col items-center justify-center rounded-xl border border-cyan-400/40 bg-blue-950/50 px-1 py-3 shadow-[0_0_12px_rgba(34,211,238,0.12)] backdrop-blur-md transition duration-300 hover:border-cyan-300 hover:shadow-[0_0_20px_rgba(34,211,238,0.2)] sm:py-4"
-          >
-            <span
-              id="hours"
-              class="text-2xl font-extrabold leading-none text-cyan-300 sm:text-4xl"
-            >00</span>
-
-            <span class="mt-2 text-[9px] font-medium text-white sm:text-xs">
-              HOURS
-            </span>
-          </div>
-
-          <!-- Minutes -->
-          <div
-            class="flex flex-col items-center justify-center rounded-xl border border-cyan-400/40 bg-blue-950/50 px-1 py-3 shadow-[0_0_12px_rgba(34,211,238,0.12)] backdrop-blur-md transition duration-300 hover:border-cyan-300 hover:shadow-[0_0_20px_rgba(34,211,238,0.2)] sm:py-4"
-          >
-            <span
-              id="minutes"
-              class="text-2xl font-extrabold leading-none text-cyan-300 sm:text-4xl"
-            >00</span>
-
-            <span class="mt-2 text-[9px] font-medium text-white sm:text-xs">
-              MINUTES
-            </span>
-          </div>
-
-          <!-- Seconds -->
-          <div
-            class="flex flex-col items-center justify-center rounded-xl border border-cyan-400/40 bg-blue-950/50 px-1 py-3 shadow-[0_0_12px_rgba(34,211,238,0.12)] backdrop-blur-md transition duration-300 hover:border-cyan-300 hover:shadow-[0_0_20px_rgba(34,211,238,0.2)] sm:py-4"
-          >
-            <span
-              id="seconds"
-              class="text-2xl font-extrabold leading-none text-cyan-300 sm:text-4xl"
-            >00</span>
-
-            <span class="mt-2 text-[9px] font-medium text-white sm:text-xs">
-              SECONDS
-            </span>
-          </div>
-        </div>
-        
-      </div>
-
-      <!-- Bottom Accent Line -->
-      <span
-        class="pointer-events-none absolute bottom-0 left-0 h-[2px] w-0 bg-gradient-to-r from-red-500 via-rose-400 to-purple-500 transition-all duration-700 group-hover:w-full"
-      ></span>
-    </a>
-  </div>
-</section>
-
-
-
     <!-- ABOUT ME SECTION -->
     <section id="about" class="section about-section">
       <div class="about-container">
@@ -519,41 +335,40 @@ app.innerHTML = `
         <!-- WORK CARDS -->
         <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
 
-          <!-- PCIU COMPUTER CLUB CAMPAIGN -->
           
-          <article class="group flex min-w-0 flex-col rounded-2xl border border-violet-400/20 bg-slate-900/30 p-6 transition duration-300 hover:-translate-y-1 hover:border-violet-400/50">
-            <div class="mb-5 flex items-center justify-between gap-3">
-              <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-violet-500/15 text-2xl">
-                📣
-              </div>
+<!-- PCIU COMPUTER CLUB LEADERSHIP -->
+<article class="group flex min-w-0 flex-col rounded-2xl border border-violet-400/20 bg-slate-900/30 p-6 transition duration-300 hover:-translate-y-1 hover:border-violet-400/50">
 
-              <span class="inline-flex items-center gap-2 rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-medium text-emerald-300">
-                <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
-                In Progress
-              </span>
-            </div>
+  <div class="mb-5 flex items-center justify-between gap-3">
+    <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-violet-500/15 text-2xl">
+      🏆
+    </div>
 
-            <p class="mb-2 text-xs font-semibold uppercase tracking-wider text-violet-400">
-              Club &amp; Leadership
-            </p>
+    <span class="inline-flex items-center gap-2 rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-medium text-emerald-300">
+      <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+      Elected
+    </span>
+  </div>
 
-            <h3 class="mb-3 text-xl font-bold leading-snug text-white">
-              PCIU Computer Club Campaign
-            </h3>
+  <p class="mb-2 text-xs font-semibold uppercase tracking-wider text-violet-400">
+    Leadership &amp; Community
+  </p>
 
-            <p class="mb-6 flex-1 text-sm leading-7 text-gray-400">
-              Working on my Executive Member campaign, presenting my vision,
-              commitments, and plans for the PCIU Computer Club.
-            </p>
+  <h3 class="mb-3 text-xl font-bold leading-snug text-white">
+    PCIU Computer Club
+  </h3>
 
-            <!-- View Campaign Button -->
-            <a
-              href="/campaign.html"
-              class="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-violet-400/30 bg-violet-500/10 px-4 py-3 text-sm font-semibold text-violet-300 transition duration-300 hover:border-violet-400 hover:bg-violet-600 hover:text-white"
-            >
-              View Campaign
-            </a>
-          </article>
+  <p class="mb-3 text-sm font-semibold text-violet-300">
+    Executive Member · 2026–27
+  </p>
+
+  <p class="flex-1 text-sm leading-7 text-gray-400">
+    Elected as an Executive Member of the PCIU Computer Club.
+    Looking forward to contributing through teamwork, active
+    participation, collaboration, and technology-driven initiatives.
+  </p>
+
+</article>
 
 
           <!-- STUDENT BURNOUT RESEARCH -->
